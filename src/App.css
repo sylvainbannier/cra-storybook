@@ -1,4 +1,10 @@
+@font-face {
+  font-family: TeXGyryaweAdventor;
+  src: url("/fonts/texgyreadventor-regular.otf") format("opentype");
+}
+
 .App {
+  font-family:  TeXGyryaweAdventor;
   text-align: center;
 }
 

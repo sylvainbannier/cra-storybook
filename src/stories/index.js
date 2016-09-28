@@ -2,12 +2,6 @@ import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
 import Button from './Button';
 import Welcome from './Welcome';
-import App from '../App';
-
-storiesOf('App', module)
-  .add('bug', () => (
-    <App/>
-  ));
 
 storiesOf('Welcome', module)
   .add('to Storybook', () => (
